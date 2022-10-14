@@ -1,6 +1,6 @@
 # textline-rule-no-empty-element
 
-
+textlint rule that checks if any element in the markdown file is empty.
 
 ## Install
 
