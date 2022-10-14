@@ -1,4 +1,4 @@
-# textline-rule-no-empty-element
+# textlint-rule-no-empty-element
 
 textlint rule that checks if any element in the markdown file is empty.
 
@@ -6,7 +6,7 @@ textlint rule that checks if any element in the markdown file is empty.
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textline-rule-no-empty-element
+    npm install textlint-rule-no-empty-element
 
 ## Usage
 
@@ -15,7 +15,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "textline-rule-no-empty-element": true
+        "textlint-rule-no-empty-element": true
     }
 }
 ```

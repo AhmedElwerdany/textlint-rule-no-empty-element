@@ -17,7 +17,7 @@
     "textlint-scripts": "^12.2.0",
     "textlint-tester": "^12.2.0"
   },
-  "name": "textline-rule-no-empty-element",
+  "name": "textlint-rule-no-empty-element",
   "directories": {
     "test": "test"
   },
