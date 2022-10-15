@@ -15,7 +15,7 @@
     "prepublish": "npm run --if-present build"
   },
   "devDependencies": {
-    "textlint-scripts": "^12.2.0",
+    "textlint-scripts": "^12.2.2",
     "textlint-tester": "^12.2.0"
   },
   "name": "textlint-rule-no-empty-element",

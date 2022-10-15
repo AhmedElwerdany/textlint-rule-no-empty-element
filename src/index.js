@@ -15,9 +15,7 @@ export default function (context, options = {}) {
 
         report(
           node,
-          new context.RuleError(`Empty ListItem`, {
-            padding: locator.range(node.range),
-          })
+          new context.RuleError("Found empty `List Item`")
         );
       }
     },
@@ -27,9 +25,7 @@ export default function (context, options = {}) {
 
         report(
           node,
-          new context.RuleError(`Empty Header`, {
-            padding: locator.range(node.range),
-          })
+          new context.RuleError("Found empty `Header`")
         );
       }
     },
@@ -39,9 +35,7 @@ export default function (context, options = {}) {
 
         report(
           node,
-          new context.RuleError(`Empty code block`, {
-            padding: locator.range(node.range),
-          })
+          new context.RuleError("Found empty `Code`")
         );
       }
     },
@@ -51,9 +45,7 @@ export default function (context, options = {}) {
       if (match) {
         report(
           node,
-          new context.RuleError(`Empty code block`, {
-            padding: locator.range(node.range),
-          })
+          new context.RuleError("Found empty `Code`")
         );
       }
     },
