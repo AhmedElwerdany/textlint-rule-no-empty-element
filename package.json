@@ -1,7 +1,8 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "keywords": [
-    "textlintrule"
+    "textlintrule",
+    "textlint"
   ],
   "main": "lib/index.js",
   "files": [
@@ -21,7 +22,15 @@
   "directories": {
     "test": "test"
   },
-  "author": "Ahmed Elwerdany",
+  "author": {
+    "name": "Ahmed Elwerdany",
+    "email": "infoalwerdany@gmail.com"
+  },
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedElwerdany/textlint-rule-no-empty-element.git"
+  },
+  "homepage": "https://github.com/AhmedElwerdany/textlint-rule-no-empty-element#readme"
 }
