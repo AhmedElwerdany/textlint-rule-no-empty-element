@@ -1,6 +1,41 @@
 # textlint-rule-no-empty-element
 
 textlint rule that checks if any element in the markdown file is empty.
+## Features
+
+**OK** :green_heart:
+
+```
+# Header 1
+## Header 2
+### Header 3
+
+- list item
+
+```npm i textline-rule-no-empty-element```
+```
+
+
+**NG** :negative_squared_cross_mark:
+
+> Found Empty Header: `#`
+
+> Found Empty Header: `##`
+
+> Found Empty Header: `###` 
+
+> Found Empty ListItem: `-`
+
+> Found Empty Code: ` ``` ``` `
+
+```
+#
+##
+###
+-
+
+``` ```
+```
 
 ## Install
 
