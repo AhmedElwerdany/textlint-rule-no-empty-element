@@ -1,6 +1,9 @@
 /** 
  * Code -> value
  * CodeBlock -> value
+ * BlockQuote -> children
+ * Strong -> children
+ * Emphasis -> children
  * Header -> children
  * ListItem -> children
  * Link -> url, children
@@ -12,7 +15,6 @@ export default function (context, options = {}) {
     [Syntax.ListItem](node) {
       const match = node.children.length === 0 ? true : false
       if (match) {
-
         report(
           node,
           new context.RuleError("Found empty `List Item`")
@@ -49,6 +51,14 @@ export default function (context, options = {}) {
         );
       }
     },
-
+    [Syntax.BlockQuote](node) {
+      const match = node.children.length === 0 ? true : false
+      if (match) {
+        report(
+          node,
+          new context.RuleError("Found empty `Quote`")
+        );
+      }
+    },
   };
 }
