@@ -12,7 +12,7 @@ textlint rule that checks if any element in the markdown file is empty.
 
 - list item
 
-```npm i textline-rule-no-empty-element```
+```npm i textlint-rule-no-empty-element```
 ```
 
 
@@ -58,7 +58,7 @@ Via `.textlintrc`(Recommended)
 Via CLI
 
 ```
-textlint --rule textline-rule-no-empty-element README.md
+textlint --rule textlint-rule-no-empty-element README.md
 ```
 
 ### Build
