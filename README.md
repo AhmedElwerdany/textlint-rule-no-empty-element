@@ -50,7 +50,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "textlint-rule-no-empty-element": true
+        "no-empty-element": true
     }
 }
 ```
